@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.chat {
+    height: 100%;
+
+}
+
+.chat1 {
+    margin-right: 20px;
+}
+
+
+
+.chat1 .messages {
+    width: 500px;
+    border: 2px solid grey;
+    height: 95%;
+    background: rgba(250, 216, 124, 0.356);
+}
+
+.chat2 .messages {
+    width: 500px;
+    border: 2px solid grey;
+    height: 95%;
+    background: rgba(124, 193, 250, 0.356);
+}
+
+.button {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.button input {
+    width: 410px;
+}
+
+.card {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background: rgb(238, 167, 100);
+    border-radius: 10px;
+}
+
+.sended {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background: rgb(100, 109, 238);
+    border-radius: 10px;
+}

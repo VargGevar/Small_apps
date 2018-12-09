@@ -1,0 +1,14 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(50, 105, 255);
+}
+
